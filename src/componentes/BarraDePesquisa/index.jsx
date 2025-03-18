@@ -4,7 +4,7 @@ import './style.css'
 
 export default function BarraDePesquisa() {
 
-    const[termoPesquisa, setTermoPesquisa] = useState('');
+    const[termoPesquisa, setTermoPesquisa] = useState();
     console.log(termoPesquisa)
 
     return (

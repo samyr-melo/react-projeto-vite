@@ -2,14 +2,18 @@
 import './App.css'
 import BarraDePesquisa from './componentes/BarraDePesquisa'
 import Sidebar from './componentes/Sidebar'
+import Filtro from './componentes/Filtro'
 
 
 
 function App() {
   return (
-    <div>
+    <div className='container'>
     <Sidebar/>
-    <BarraDePesquisa/>
+      <div>
+      <BarraDePesquisa/>
+      <Filtro/>
+      </div>
     </div>
   )
 }
